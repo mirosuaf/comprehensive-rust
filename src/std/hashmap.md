@@ -24,3 +24,14 @@ fn main() {
     }
 }
 ```
+
+<details>
+* Point out that `HashMap` is not in the prelude and it needs to brought into scope
+* In a hashmap, types with the Copy trait (i32) are copied into the hashmap while owned values (String) are moved into the hashmap.
+* You can demonstrate different variations of unwrapping and print the results. Only the later changes the value in the hashmap.
+```  
+    page_counts.get("HP").unwrap_or(&336);
+    age_counts.entry("The Hunger Games".to_string()).or_insert(374);
+```
+    
+</details>

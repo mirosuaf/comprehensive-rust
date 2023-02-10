@@ -238,6 +238,7 @@
 - [Microcontrollers](bare-metal/microcontrollers.md)
   - [PACs](bare-metal/microcontrollers/pacs.md)
   - [HAL crates](bare-metal/microcontrollers/hals.md)
+  - [embedded-hal](bare-metal/microcontrollers/embedded-hal.md)
   - [The type state pattern]()
 
 # Day 5A: Afternoon

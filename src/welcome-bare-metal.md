@@ -10,7 +10,7 @@ be divided into several parts:
 
 To get started, install some tools we'll need later:
 
-```
+```bash
 sudo apt install gdb-multiarch
 rustup target add thumbv7em-none-eabihf
 cargo install cargo-binutils

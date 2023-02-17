@@ -250,7 +250,7 @@
 # Day 5A: Afternoon
 
 - [Application processors]()
-  - [MMIO]()
+  - [MMIO](bare-metal/aps/mmio.md)
   - [Let's write a UART driver]()
   - [Logging]()
 - [Useful crates]()
